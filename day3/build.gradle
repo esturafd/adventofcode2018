@@ -1,0 +1,12 @@
+apply plugin: 'cpp'
+
+model {
+   components {
+      main(NativeExecutableSpec)
+   }
+}
+
+task run(type: Exec, dependsOn: 'mainExecutable') {
+   executable './build/exe/main/main'
+   args puzzle
+}

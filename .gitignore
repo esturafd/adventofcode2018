@@ -1,2 +1,4 @@
 day2/target/*
 day2/**/*.rs.bk
+day3/.gradle
+day3/build
