@@ -30,3 +30,15 @@ The checksum of the boxes is 5456
 pront> cargo -q run 2
 Common grade 25 code: megsdlpulxvinkatfoyzxcbvq
 ```
+
+## day 3: C++
+
+For this day another language that I almost do not use, but vastly important to learn.
+
+```
+pront> ./gradlew -q run -Ppuzzle=1
+Square inches reused is: 117948
+
+pront> ./gradlew -q run -Ppuzzle=2
+The claim that does not repeat space is: 567
+```
